@@ -12,7 +12,7 @@ ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/usr/sbin/tor", "-f", "/etc/tor/torrc" ]
 
 ARG TARGETARCH
-ARG TOR_VERSION=0.4.8.21
+ARG TOR_VERSION=0.4.8.24
 ARG TOR_DEB_SUFFIX="-1~jammy+1"
 
 ENV TOR_VERSION=${TOR_VERSION} \
