@@ -2,7 +2,7 @@ FROM ubuntu:jammy
 
 LABEL maintainer="Wollomatic <gh2022@wollomatic.de>"
 LABEL maintainer="theking2 <theking2@king.ma>"
-LABEL org.opencontainers.image.source=https://github.com/wollomatic/torrelay
+LABEL org.opencontainers.image.source=https://github.com/theking2/torrelay
 LABEL org.opencontainers.image.description="Tor relay in a ubuntu docker image"
 LABEL org.opencontainers.image.licenses=MIT
 LABEL securitytxt="https://wollomatic.de/.well-known/security.txt"
