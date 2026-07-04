@@ -2,12 +2,6 @@
 
 Tor relay with docker / docker compose
 
-> [!IMPORTANT]
->## wollomatic/torrelay is moving to Codeberg
-> The new location is https://codeberg.org/wollomatic/torrelay
-> 
-> The GitHub repo will be archived soon.
-
 ## Prerequisities
 
 * You need docker / docker compose installed on a linux machine with amd64 architecture.
@@ -15,10 +9,6 @@ Tor relay with docker / docker compose
 * You should know what You are doing.
 
 ## Getting Started
-
-The container image is available on docker hub: [https://hub.docker.com/r/wollomatic/torrelay](https://hub.docker.com/r/wollomatic/torrelay/)
-
-**Get the sample configuration from the [Github Repo](https://github.com/wollomatic/torrelay/tree/main/deployment)**
 
 #### configure torrc
 
@@ -39,15 +29,7 @@ The container image is available on docker hub: [https://hub.docker.com/r/wollom
 * `/var/lib/tor` - tor data directory
 
 ## GitHub repository
-* [GitHub](https://github.com/wollomatic/torrelay)
-
-## Authors
-
-* **W. Ellsaesser** - *Initial work* - [wollomatic](https://github.com/wollomatic)
-
-## License
-
-This project is licensed under the BSD 3-Clause License - see the [LICENSE](https://github.com/wollomatic/torrelay/blob/main/LICENSE) file for details.
+* [Github](https://github.com/theking2/torrelay/)
 
 ## Acknowledgments
 
