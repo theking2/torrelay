@@ -5,7 +5,7 @@ LABEL maintainer="theking2 <theking2@king.ma>"
 LABEL org.opencontainers.image.source=https://github.com/theking2/torrelay
 LABEL org.opencontainers.image.description="Tor relay in a ubuntu docker image"
 LABEL org.opencontainers.image.licenses=MIT
-LABEL securitytxt="https://wollomatic.de/.well-known/security.txt"
+LABEL securitytxt="https://king.ma/.well-known/security.txt"
 VOLUME ["/etc/tor", "/var/lib/tor"]
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
